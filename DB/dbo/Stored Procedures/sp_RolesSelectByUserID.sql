@@ -1,0 +1,9 @@
+﻿
+CREATE PROCEDURE sp_RolesSelectByUserID 
+	@UserID INT
+AS BEGIN
+	SELECT T1.*
+	FROM Roles AS T1
+		 JOIN UserRoles AS T2 ON T1.RoleID = T2.RoleID
+	WHERE T2.UserID = @UserID
+END

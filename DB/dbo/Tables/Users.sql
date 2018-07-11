@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[Users] (
+    [UserID]                       INT            IDENTITY (1, 1) NOT NULL,
+    [FirstName]                    NVARCHAR (50)  NOT NULL,
+    [LastName]                     NVARCHAR (50)  NOT NULL,
+    [Username]                     NVARCHAR (100) NOT NULL,
+    [Email]                        NVARCHAR (100) NOT NULL,
+    [PasswordSalt]                 NVARCHAR (100) NOT NULL,
+    [PasswordHash]                 NVARCHAR (100) NOT NULL,
+    [CreatedDate]                  DATETIME       NOT NULL,
+    [Gender]                       NVARCHAR (1)   NOT NULL,
+    [Active]                       BIT            NOT NULL,
+    [ActivationCode]               NVARCHAR (10)  NULL,
+    [LastAccess]                   DATETIME       NULL,
+    [LastPasswordChange]           DATETIME       NULL,
+    [ResetPasswordToken]           NVARCHAR (20)  NULL,
+    [ResetPasswordTokenExpiration] DATETIME       NULL,
+    [Phone]                        NVARCHAR (20)  NOT NULL,
+    [ProfilePhoto]                 NVARCHAR (200) NULL,
+    [NumberOfReviews]              INT            DEFAULT ((0)) NOT NULL,
+    [NumberOfTours]                INT            DEFAULT ((0)) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY CLUSTERED ([UserID] ASC),
+    CONSTRAINT [UQ_Email] UNIQUE NONCLUSTERED ([Email] ASC),
+    CONSTRAINT [UQ_Phone] UNIQUE NONCLUSTERED ([Phone] ASC),
+    CONSTRAINT [UQ_Username] UNIQUE NONCLUSTERED ([Username] ASC)
+);
+

@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>Akcija</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktiviraj</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktivan</value>
+  </data>
+  <data name="AddCitizenship" xml:space="preserve">
+    <value>Dodaj državljanstvo</value>
+  </data>
+  <data name="AddCity" xml:space="preserve">
+    <value>Dodaj grad</value>
+  </data>
+  <data name="AddContact" xml:space="preserve">
+    <value>Dodaj kontakt</value>
+  </data>
+  <data name="AddContactType" xml:space="preserve">
+    <value>Dodaj tip kontakta</value>
+  </data>
+  <data name="AddCountry" xml:space="preserve">
+    <value>Dodaj državu</value>
+  </data>
+  <data name="AddNationality" xml:space="preserve">
+    <value>Dodaj nacionalnost</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="AddRole" xml:space="preserve">
+    <value>Dodaj ulogu</value>
+  </data>
+  <data name="AddUser" xml:space="preserve">
+    <value>Dodaj korisnika</value>
+  </data>
+  <data name="AnnouncementTypes" xml:space="preserve">
+    <value>Tipovi obavijesti</value>
+  </data>
+  <data name="ApplicationSettings" xml:space="preserve">
+    <value>Aplikacijske postavke</value>
+  </data>
+  <data name="AtTime" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Nazad</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Datum rođenja</value>
+  </data>
+  <data name="Bosnian" xml:space="preserve">
+    <value>Bosanski</value>
+  </data>
+  <data name="Breakpoint" xml:space="preserve">
+    <value>Breakpoint</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Otkaži</value>
+  </data>
+  <data name="ChangeImage" xml:space="preserve">
+    <value>Izmijeni sliku</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Promijeni lozinku</value>
+  </data>
+  <data name="ChangePhoto" xml:space="preserve">
+    <value>Izmijeni sliku</value>
+  </data>
+  <data name="ChooseCountry" xml:space="preserve">
+    <value>Odaberite državu</value>
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>Gradovi</value>
+  </data>
+  <data name="Citizenship" xml:space="preserve">
+    <value>Državljanstvo</value>
+  </data>
+  <data name="Citizenships" xml:space="preserve">
+    <value>Državljanstva</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Grad</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Potvrdite novu lozinku</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Potvrdi lozinku</value>
+  </data>
+  <data name="ContactInformation" xml:space="preserve">
+    <value>Kontaktni podaci</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Kontakti</value>
+  </data>
+  <data name="ContactType" xml:space="preserve">
+    <value>Vrsta kontakta</value>
+  </data>
+  <data name="ContactTypes" xml:space="preserve">
+    <value>Tipovi kontakata</value>
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>Države</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Država</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Oznaka države</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Trenutna lozinka</value>
+  </data>
+  <data name="DataTableInfoEmpty" xml:space="preserve">
+    <value>Prikazujem 0 do 0 od 0 zapisa</value>
+  </data>
+  <data name="DataTableInfoFiltered" xml:space="preserve">
+    <value>(filtrirano iz _MAX_ zapisa)</value>
+  </data>
+  <data name="DataTableLengthMenu" xml:space="preserve">
+    <value>Prikaži _MENU_ zapisa</value>
+  </data>
+  <data name="DataTableProcessing" xml:space="preserve">
+    <value>Obrađujem...</value>
+  </data>
+  <data name="DataTableShowingStartToEnd" xml:space="preserve">
+    <value>Prikazujem od _START_ do _END_ od _TOTAL_ zapisa</value>
+  </data>
+  <data name="DateFormat" xml:space="preserve">
+    <value>dd.MM.yyyy</value>
+  </data>
+  <data name="Deactivate" xml:space="preserve">
+    <value>Deaktiviraj</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Obriši</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalji</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Izmijeni</value>
+  </data>
+  <data name="EditCitizenship" xml:space="preserve">
+    <value>Izmijeni državljanstvo</value>
+  </data>
+  <data name="EditCity" xml:space="preserve">
+    <value>Izmijeni grad</value>
+  </data>
+  <data name="EditContactTypes" xml:space="preserve">
+    <value>Izmijeni tip kontakta</value>
+  </data>
+  <data name="EditCountry" xml:space="preserve">
+    <value>Izmijeni državu</value>
+  </data>
+  <data name="EditNationality" xml:space="preserve">
+    <value>Izmijeni nacionalnost</value>
+  </data>
+  <data name="EditRole" xml:space="preserve">
+    <value>Izmijeni ulogu</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="EmailTitleRequestForPasswordRecovery" xml:space="preserve">
+    <value>Zahtjev za resetovanje lozinke</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Engleski</value>
+  </data>
+  <data name="ErrMsgActiveReq" xml:space="preserve">
+    <value>Polje 'Aktivan' je obavezno.</value>
+  </data>
+  <data name="ErrMsgBirthDateReq" xml:space="preserve">
+    <value>Datum rođenja je obavezno.</value>
+  </data>
+  <data name="ErrMsgContactInUse" xml:space="preserve">
+    <value>Kontakt "{0}" već se koristi od strane drugog korisnika.</value>
+  </data>
+  <data name="ErrMsgContactsEdited" xml:space="preserve">
+    <value>Kontakti ne mogu biti izmijenjeni.</value>
+  </data>
+  <data name="ErrMsgCountry" xml:space="preserve">
+    <value>Država je obavezna.</value>
+  </data>
+  <data name="ErrMsgCountryCodeLen" xml:space="preserve">
+    <value>Maksimalna dužina oznake države je 10 karaktera.</value>
+  </data>
+  <data name="ErrMsgCreatedDateReq" xml:space="preserve">
+    <value>Datum dodavanja je obavezan.</value>
+  </data>
+  <data name="ErrMsgCurrentPasswordReq" xml:space="preserve">
+    <value>Trenutna lozinka je obavezna.</value>
+  </data>
+  <data name="ErrMsgDeleteLastPrimary" xml:space="preserve">
+    <value>Posljednji primarni kontakt nije moguće obrisati.</value>
+  </data>
+  <data name="ErrMsgEmailLen100" xml:space="preserve">
+    <value>Maksimalna dužina email adrese je 100 karaktera.</value>
+  </data>
+  <data name="ErrMsgEmailNotValid" xml:space="preserve">
+    <value>Email adresa "{0}" nije validna.</value>
+  </data>
+  <data name="ErrMsgEmailReq" xml:space="preserve">
+    <value>Email je obavezan.</value>
+  </data>
+  <data name="ErrMsgFirstNameLen50" xml:space="preserve">
+    <value>Maksimalna dužina imena je 50 karaktera.</value>
+  </data>
+  <data name="ErrMsgFirstNameReq" xml:space="preserve">
+    <value>Ime je obavezno.</value>
+  </data>
+  <data name="ErrMsgFrinedly" xml:space="preserve">
+    <value>Došlo je do greške. Molim pokušajte kasnije. </value>
+  </data>
+  <data name="ErrMsgGenderLen10" xml:space="preserve">
+    <value>Maksimalna dužina spola je 10 karaktera.</value>
+  </data>
+  <data name="ErrMsgGenderReq" xml:space="preserve">
+    <value>Spol je obavezan.</value>
+  </data>
+  <data name="ErrMsgGroupReq" xml:space="preserve">
+    <value>Grupa je obavezana.</value>
+  </data>
+  <data name="ErrMsgImageEdit" xml:space="preserve">
+    <value>Slika ne može biti izmijenjena.</value>
+  </data>
+  <data name="ErrMsgImageFormat" xml:space="preserve">
+    <value>Slika mora biti u .PNG ili .JPG formatu.</value>
+  </data>
+  <data name="ErrMsgImageResolution" xml:space="preserve">
+    <value>Dimenzije slike ne mogu biti manje od {0}x{1} piksela.</value>
+  </data>
+  <data name="ErrMsgImageSize" xml:space="preserve">
+    <value>Veličina slike ne može biti veća od {0} MB.</value>
+  </data>
+  <data name="ErrMsgInvalidAuthToken" xml:space="preserve">
+    <value>Neispravan autentifikacijski token.</value>
+  </data>
+  <data name="ErrMsgInvalidOrExpiredResetPasswordToken" xml:space="preserve">
+    <value>Token za resetovanje je istekao ili nije validan.</value>
+  </data>
+  <data name="ErrMsgLastNameLen50" xml:space="preserve">
+    <value>Maksimalna dužina prezimena je 50 karaktera.</value>
+  </data>
+  <data name="ErrMsgLastNameReq" xml:space="preserve">
+    <value>Prezime je obavezno.</value>
+  </data>
+  <data name="ErrMsgMemberReq" xml:space="preserve">
+    <value>Član je obavezan.</value>
+  </data>
+  <data name="ErrMsgMustBeImage" xml:space="preserve">
+    <value>Datoteka mora biti slika.</value>
+  </data>
+  <data name="ErrMsgNameLen100" xml:space="preserve">
+    <value>Maksimalna dužina naziva je 100 karaktera.</value>
+  </data>
+  <data name="ErrMsgNameReq" xml:space="preserve">
+    <value>Naziv je obavezan.</value>
+  </data>
+  <data name="ErrMsgNewPasswordReq" xml:space="preserve">
+    <value>Nova lozinka je obavezna.</value>
+  </data>
+  <data name="ErrMsgNoFucntionality" xml:space="preserve">
+    <value>Potrebno je odabrati barem jednu funkcionalnost.</value>
+  </data>
+  <data name="ErrMsgPageNotFound" xml:space="preserve">
+    <value>Stranica kojoj pokušavate pristupiti nije pronađena.</value>
+  </data>
+  <data name="ErrMsgParentNameLen50" xml:space="preserve">
+    <value>Maksimalna dužina imena roditelja je 50 karaktera.</value>
+  </data>
+  <data name="ErrMsgParentNameReq" xml:space="preserve">
+    <value>Ime roditelja je obavezno.</value>
+  </data>
+  <data name="ErrMsgPasswordComplex" xml:space="preserve">
+    <value>Lozinka mora sadržavati najmanje 6 karaktera (kombinacija slova i brojeva).</value>
+  </data>
+  <data name="ErrMsgPasswordComplexity" xml:space="preserve">
+    <value>Lozinka mora sadržavati najmanje 6 karaktera (kombinacija slova i brojeva).</value>
+  </data>
+  <data name="ErrMsgPasswordConfirmReq" xml:space="preserve">
+    <value>Potvrda lozinke je obavezna.</value>
+  </data>
+  <data name="ErrMsgPasswordHashLen100" xml:space="preserve">
+    <value>Maksimalna dužina hasha lozinke je 100 karaktera.</value>
+  </data>
+  <data name="ErrMsgPasswordIncorrect" xml:space="preserve">
+    <value>Lozinka koju ste unijeli nije validna.</value>
+  </data>
+  <data name="ErrMsgPasswordNoMatch" xml:space="preserve">
+    <value>Potvrda lozinke nije validna.</value>
+  </data>
+  <data name="ErrMsgPasswordRequired" xml:space="preserve">
+    <value>Lozinka je obavezna.</value>
+  </data>
+  <data name="ErrMsgPasswordSaltLen100" xml:space="preserve">
+    <value>Maksimalna dužina salta lozinke je 100 karaktera.</value>
+  </data>
+  <data name="ErrMsgPasswordsNotMatch" xml:space="preserve">
+    <value>Lozinke se ne poklapaju.</value>
+  </data>
+  <data name="ErrMsgPhotoFormat" xml:space="preserve">
+    <value>Format slike nije dozvoljen.</value>
+  </data>
+  <data name="ErrMsgPhotoResolution" xml:space="preserve">
+    <value>Minimalna rezolucija slike je 150x225.</value>
+  </data>
+  <data name="ErrMsgPhotoSize" xml:space="preserve">
+    <value>Slika je prevelika. Maksimalna veličina slike je 500 KB.</value>
+  </data>
+  <data name="ErrMsgPrimaryEmailReq" xml:space="preserve">
+    <value>Primarna email adresa je obavezana.</value>
+  </data>
+  <data name="ErrMsgRecordAdded" xml:space="preserve">
+    <value>Zapis ne može biti dodan. </value>
+  </data>
+  <data name="ErrMsgRecordDeleted" xml:space="preserve">
+    <value>Zapis ne može biti obrisan jer je povezan sa drugim podacima.</value>
+  </data>
+  <data name="ErrMsgRecordEdited" xml:space="preserve">
+    <value>Zapis ne može biti izmijenjen. </value>
+  </data>
+  <data name="ErrMsgRoleReq" xml:space="preserve">
+    <value>Uloga je obavezan.</value>
+  </data>
+  <data name="ErrMsgSameOldNewPassword" xml:space="preserve">
+    <value>Nova lozinka mora biti različita od trenutne.</value>
+  </data>
+  <data name="ErrMsgUnauthorizedAccess" xml:space="preserve">
+    <value>Neovlašten pristup</value>
+  </data>
+  <data name="ErrMsgUserAccountNotActive" xml:space="preserve">
+    <value>Korisnički račun je deaktiviran ili nije izvšena aktivacija.</value>
+  </data>
+  <data name="ErrMsgUserAccountNotFound" xml:space="preserve">
+    <value>Korisnički račun nije pronađen.</value>
+  </data>
+  <data name="ErrMsgUsernameAlreadyExists" xml:space="preserve">
+    <value>Korisničko ime je zauzeto.</value>
+  </data>
+  <data name="ErrMsgUsernameAndPasswordReq" xml:space="preserve">
+    <value>Niste unijeli validno korisničko ime ili lozinku.</value>
+  </data>
+  <data name="ErrMsgUserNameLen100" xml:space="preserve">
+    <value>Maksimalna dužina korisničkog imena je 100 karaktera.</value>
+  </data>
+  <data name="ErrMsgUserNameReq" xml:space="preserve">
+    <value>Korisničko ime je obavezno.</value>
+  </data>
+  <data name="ErrMsgUserReq" xml:space="preserve">
+    <value>Korisnik je obavezan.</value>
+  </data>
+  <data name="ErrMsgValueLen100" xml:space="preserve">
+    <value>Maksimalna dužina vrijednosti je 100 karaktera.</value>
+  </data>
+  <data name="ErrMsgValueReq" xml:space="preserve">
+    <value>Vrijednost je obavezna.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Greška</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="FirstPage" xml:space="preserve">
+    <value>Prva stranica</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Zaboravljena lozinka?</value>
+  </data>
+  <data name="ForgotPasswordMsg" xml:space="preserve">
+    <value>Unesite Vašu e-mail adresu i pritisnite dugme "Pošalji". Na mail ćete dobiti link za unos nove lozinke.</value>
+  </data>
+  <data name="Functionalities" xml:space="preserve">
+    <value>Funkcionalnosti</value>
+  </data>
+  <data name="Functionality" xml:space="preserve">
+    <value>Funkcionalnost</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Spol</value>
+  </data>
+  <data name="GenderFemale" xml:space="preserve">
+    <value>Ženksi</value>
+  </data>
+  <data name="GenderMale" xml:space="preserve">
+    <value>Muški</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>Opšte postavke</value>
+  </data>
+  <data name="GroupMemberships" xml:space="preserve">
+    <value>Članstva u grupama</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>Naziv grupe</value>
+  </data>
+  <data name="GroupPosition" xml:space="preserve">
+    <value>Pozicija u grupi</value>
+  </data>
+  <data name="GroupsInformation" xml:space="preserve">
+    <value>Članstva u grupama</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Početna</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Slika</value>
+  </data>
+  <data name="IncorrectLoginCredentials" xml:space="preserve">
+    <value>Pogrešno korisničko ime i/ili lozinka.</value>
+  </data>
+  <data name="InfoEmailMsgForgetPasswordFemale" xml:space="preserve">
+    <value>Poštovana {0},
+&lt;br /&gt; &lt;br /&gt;
+primili ste ovaj mail jer je {1} poslan zahtjev za resetovanje lozinke na {2} za Vaš korisnički račun. Da biste nastavili proces resetovanja lozinke, unesite u polje sljedeći verifikacijski kod:
+&lt;h2 style="color:#19a6d0"&gt;{3}&lt;/h2&gt;
+&lt;br/&gt;&lt;br/&gt;Verifikacijski kod za resetovanje lozinke ima ograničeno vrijeme trajanja od 20 minuta kada prestaje biti važeći i bit će potrebno da ponovo pošaljete zahtjev.&lt;br/&gt;&lt;br/&gt;
+S poštovanjem,&lt;br/&gt;
+{2} Administracija&lt;br/&gt;&lt;br/&gt;&lt;hr&gt;
+&lt;span style="font-size:8pt;"&gt;Ukoliko Vi niste zahtijevali resetovanje lozinke, ovaj mail možete ignorisati. Ovo je automatski generisana poruka te Vas molimo da ne odgovarate na nju. Ukoliko i dalje imate poteškoća prilikom prijave na sistem, kontaktirajte administratora.&lt;/span&gt;</value>
+  </data>
+  <data name="InfoEmailMsgForgetPasswordMale" xml:space="preserve">
+    <value>Poštovani {0},
+&lt;br /&gt; &lt;br /&gt;
+primili ste ovaj mail jer je {1} poslan zahtjev za resetovanje lozinke na {2} za Vaš korisnički račun. Da biste nastavili proces resetovanja lozinke, unesite u polje sljedeći verifikacijski kod:
+&lt;h2 style="color:#19a6d0"&gt;{3}&lt;/h2&gt;
+&lt;br/&gt;&lt;br/&gt;Verifikacijski kod za resetovanje lozinke ima ograničeno vrijeme trajanja od 20 minuta kada prestaje biti važeći i bit će potrebno da ponovo pošaljete zahtjev.&lt;br/&gt;&lt;br/&gt;
+S poštovanjem,&lt;br/&gt;
+{2} Administracija&lt;br/&gt;&lt;br/&gt;&lt;hr&gt;
+&lt;span style="font-size:8pt;"&gt;Ukoliko Vi niste zahtijevali resetovanje lozinke, ovaj mail možete ignorisati. Ovo je automatski generisana poruka te Vas molimo da ne odgovarate na nju. Ukoliko i dalje imate poteškoća prilikom prijave na sistem, kontaktirajte administratora.&lt;/span&gt;</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="LastPage" xml:space="preserve">
+    <value>Posljednja stranica</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Prijava</value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>Unesite korisničko ime i lozinku</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Odjava</value>
+  </data>
+  <data name="MemberGroups" xml:space="preserve">
+    <value>Grupe članova</value>
+  </data>
+  <data name="MemberPositions" xml:space="preserve">
+    <value>Pozicije članova</value>
+  </data>
+  <data name="MembershipDate" xml:space="preserve">
+    <value>Datum učlanjivanja</value>
+  </data>
+  <data name="MembershipOrganizer" xml:space="preserve">
+    <value>Membership organizer</value>
+  </data>
+  <data name="MembershipType" xml:space="preserve">
+    <value>Tip članstva</value>
+  </data>
+  <data name="MembershipTypes" xml:space="preserve">
+    <value>Tipovi članstava</value>
+  </data>
+  <data name="MemberTitles" xml:space="preserve">
+    <value>Titule članova</value>
+  </data>
+  <data name="MsgActivationLinkSend" xml:space="preserve">
+    <value>Aktivacijski link je poslan na Vašu e-mail adresu.</value>
+  </data>
+  <data name="MsgPasswordReseted" xml:space="preserve">
+    <value>Lozinka je usješno resetovana.</value>
+  </data>
+  <data name="MyInformation" xml:space="preserve">
+    <value>Moji podaci</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="Nationalities" xml:space="preserve">
+    <value>Nacionalnosti</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>Nacionalnost</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nova lozinka</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Sljedeće</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>Nema rezultata</value>
+  </data>
+  <data name="NoResultsMatch" xml:space="preserve">
+    <value>Nema rezultata koji odgovaraju vašoj pretrazi.</value>
+  </data>
+  <data name="ParentName" xml:space="preserve">
+    <value>Ime roditelja</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Lozinka</value>
+  </data>
+  <data name="PasswordChange" xml:space="preserve">
+    <value>Izmijeni lozinku</value>
+  </data>
+  <data name="PersonalInformation" xml:space="preserve">
+    <value>Osobni podaci</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Slika</value>
+  </data>
+  <data name="Place" xml:space="preserve">
+    <value>Mjesto</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Pozicija</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Prethodno</value>
+  </data>
+  <data name="Primary" xml:space="preserve">
+    <value>Primarni</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="ProjectStartYear" xml:space="preserve">
+    <value>2018</value>
+  </data>
+  <data name="QConfirm" xml:space="preserve">
+    <value>Da li ste sigurni?</value>
+  </data>
+  <data name="Records" xml:space="preserve">
+    <value>Zapisa</value>
+  </data>
+  <data name="RedirectingToTheHomepage" xml:space="preserve">
+    <value>Preusmjeravam na početnu...</value>
+  </data>
+  <data name="RegionalSettings" xml:space="preserve">
+    <value>Regionalne postavke</value>
+  </data>
+  <data name="Remember" xml:space="preserve">
+    <value>Zapamti me</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Ukloni</value>
+  </data>
+  <data name="RequiredPasswordChange" xml:space="preserve">
+    <value>Obavezna izmjena lozinke</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Resetuj lozinku</value>
+  </data>
+  <data name="RoleDetails" xml:space="preserve">
+    <value>Detalji uloga</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Uloge</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Pretraži</value>
+  </data>
+  <data name="SearchUsers" xml:space="preserve">
+    <value>Pretraga korisnika</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Odabran</value>
+  </data>
+  <data name="SelectImage" xml:space="preserve">
+    <value>Odaberi sliku</value>
+  </data>
+  <data name="SelectPhoto" xml:space="preserve">
+    <value>Odaberi sliku</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Pošalji</value>
+  </data>
+  <data name="ShortGenderFemale" xml:space="preserve">
+    <value>Ž</value>
+  </data>
+  <data name="ShortGenderMale" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Prikaži</value>
+  </data>
+  <data name="ShowingStartToEnd" xml:space="preserve">
+    <value>Prikazujem od {0} do {1} od {2} zapisa</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Prijava</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Potvrdi</value>
+  </data>
+  <data name="SuccessMsgContactsEdited" xml:space="preserve">
+    <value>Kontakti su uspješno izmijenjeni.</value>
+  </data>
+  <data name="SuccessMsgEditStatus" xml:space="preserve">
+    <value>Status je uspješno izmijenjen.</value>
+  </data>
+  <data name="SuccessMsgImageEdit" xml:space="preserve">
+    <value>Slika je uspješno izmijenjena.</value>
+  </data>
+  <data name="SuccessMsgRecordAdded" xml:space="preserve">
+    <value>Zapis je uspješno dodan.</value>
+  </data>
+  <data name="SuccessMsgRecordDeleted" xml:space="preserve">
+    <value>Zapis je uspješno obrisan.</value>
+  </data>
+  <data name="SuccessMsgRecordEdited" xml:space="preserve">
+    <value>Zapis je uspješno izmijenjen.</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>Postavke sistema</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titula</value>
+  </data>
+  <data name="UserAccount" xml:space="preserve">
+    <value>Korisnički račun</value>
+  </data>
+  <data name="UserInformation" xml:space="preserve">
+    <value>Informacije o korisniku</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Korisnici</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Vrijednost</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="ProjectName" xml:space="preserve">
+    <value>NEMAM IDEJE</value>
+  </data>
+  <data name="ErrMsgUnableToRegister" xml:space="preserve">
+    <value>Trenutno nije moguće izvršiti registraciju.</value>
+  </data>
+  <data name="ErrMsgEmailAlreadyExists" xml:space="preserve">
+    <value>Email je zauzet.</value>
+  </data>
+  <data name="ErrMsgModelstateNotValid" xml:space="preserve">
+    <value>Došlo je do validacijskih grešaka.</value>
+  </data>
+  <data name="ErrMsgAccountNeedsActivaiton" xml:space="preserve">
+    <value>Korisnički račun nije aktiviran.</value>
+  </data>
+  <data name="EmailMsgRegistration" xml:space="preserve">
+    <value>Poštovani {0},
+&lt;br /&gt; &lt;br /&gt;
+primili ste ovaj mail jer je {1} kreiran korisnički račun na {2}. Da biste aktivirali korisnički račun, unesite u polje sljedeći aktivacijski kod:
+&lt;h2 style="color:#19a6d0"&gt;{3}&lt;/h2&gt;
+&lt;br/&gt;&lt;br/&gt;Ukoliko ne vidite polje za unos aktivacijskog koda pokušajte se prijaviti putem aplikacije. U trenuktu prijave pojavit će vam se polje za unos aktivacijskog koda.&lt;br/&gt;&lt;br/&gt;
+S poštovanjem,&lt;br/&gt;
+{2} Administracija&lt;br/&gt;&lt;br/&gt;&lt;hr&gt;</value>
+  </data>
+  <data name="EmailTitleRegistration" xml:space="preserve">
+    <value>Zahtjev za registraciju</value>
+  </data>
+  <data name="ErrMsgActivationCodeNotValid" xml:space="preserve">
+    <value>Aktivacijski kod nije validan.</value>
+  </data>
+  <data name="ErrMsgUnableToSendMail" xml:space="preserve">
+    <value>Trenutno nije moguće poslati mail.</value>
+  </data>
+  <data name="ErrMsgUserAccountAlreadyActived" xml:space="preserve">
+    <value>Ovaj korisnički račun je aktiviran.</value>
+  </data>
+  <data name="UserAccountSuccessfullyActivated" xml:space="preserve">
+    <value>Korisnički račun je uspješno aktiviran.</value>
+  </data>
+  <data name="ErrMsgAdditionalInformationTypeReq" xml:space="preserve">
+    <value>Vrsta dodatne informacije je obavezna.</value>
+  </data>
+  <data name="ErrMsgDateReq" xml:space="preserve">
+    <value>Datum je obavezan.</value>
+  </data>
+  <data name="ErrMsgDayReq" xml:space="preserve">
+    <value>Dan je obavezan.</value>
+  </data>
+  <data name="ErrMsgDurationInDaysReq" xml:space="preserve">
+    <value>Trajanje izleta je obavezno.</value>
+  </data>
+  <data name="ErrMsgGradeReq" xml:space="preserve">
+    <value>Ocjena je obavezna.</value>
+  </data>
+  <data name="ErrMsgNumberOfPassengersReq" xml:space="preserve">
+    <value>Broj putnika je obavezan.</value>
+  </data>
+  <data name="ErrMsgNumberOfPlacesReq" xml:space="preserve">
+    <value>Broj mjesta je obavezno.</value>
+  </data>
+  <data name="ErrMsgPriceReq" xml:space="preserve">
+    <value>Cijena je obavezna</value>
+  </data>
+  <data name="ErrMsgReviewLen500" xml:space="preserve">
+    <value>Maksimalna dužina recenzije je 500 karaktera.</value>
+  </data>
+  <data name="ErrMsgReviewReq" xml:space="preserve">
+    <value>Recenzija je obavezna.</value>
+  </data>
+  <data name="ErrMsgTimeLen10" xml:space="preserve">
+    <value>Maksimalna dužina vremena je 10 karaktera.</value>
+  </data>
+  <data name="ErrMsgTitleLen200" xml:space="preserve">
+    <value>Maksimalna dužina naslova je 200 karaktera.</value>
+  </data>
+  <data name="ErrMsgTitleReq" xml:space="preserve">
+    <value>Naslov je obavezan.</value>
+  </data>
+  <data name="ErrMsgTourDateReq" xml:space="preserve">
+    <value>Termin izleta je obavezan.</value>
+  </data>
+  <data name="ErrMsgTourReq" xml:space="preserve">
+    <value>Izlet je obavezan.</value>
+  </data>
+  <data name="ErrMsgTourReservationReq" xml:space="preserve">
+    <value>Rezervacija je obavezna.</value>
+  </data>
+  <data name="NumberOfPlaces" xml:space="preserve">
+    <value>Broj mjesta</value>
+  </data>
+  <data name="TourDuration" xml:space="preserve">
+    <value>Trajanje izleta (dan)</value>
+  </data>
+  <data name="DateFormatLong" xml:space="preserve">
+    <value>dd.MM.yyyy u HH:mm</value>
+  </data>
+</root>
